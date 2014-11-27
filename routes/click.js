@@ -19,7 +19,7 @@ router.get('/', function(req, res) {
 		    });
 		});
 	}
-	res.send(process.platform);
+	res.send("clicked at " + Date().toString().replace(/.* (\d{1,2}:.*) GMT.*/, '$1'));
 });
 
 module.exports = router;
