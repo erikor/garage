@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var isPi = /^arm/.test(process.arch);
-var PIN = 23;
+var PIN = 22;
 var CLICK_LENGTH = 500; 
 
 if(isPi)
